@@ -1,0 +1,22 @@
+Why is a hash table the right structure for fast lookups?
+
+While working on this assignment, I found that hash tables are a useful way to store information and search for it quickly.
+Instead of checking every contact one by one, a hash table uses a hash function to find where the information is stored. 
+In my program, I used contact names as keys to find their phone numbers. 
+I think this makes a hash table useful for a contact management system, especially when we have many contacts to search through.
+
+How did I  handle collisions?
+
+One interesting thing I noticed during testing was that Amy and May both received the same index, which was 5. 
+At first, I thought this might cause a problem because both contacts needed to be stored in the same location. 
+However, I found that using separate chaining with linked lists allowed me to handle this situation.
+This allowed me to store both contacts without losing their information. I also tested what happens when I insert Rebecca again with a different phone number. 
+My program updated her number instead of creating another Rebecca, which showed me that duplicate contacts were handled correctly.
+
+
+When might an engineer choose a hash table over a list or tree?
+
+After reviewing the learning resources, I started to understand why an engineer might choose a hash table instead of a list or tree.
+I think hash tables are a better choice when searching for information quickly is the main goal. However, they are not always the best option. 
+For example, a list could be useful when we want to keep records in order, while a balanced tree could be better when we need sorted information. 
+I also learned that too many collisions can make searching slower.
