@@ -16,7 +16,7 @@ My program updated her number instead of creating another Rebecca, which showed 
 
 When might an engineer choose a hash table over a list or tree?
 
-After reviewing the learning resources, I started to understand why an engineer might choose a hash table instead of a list or tree.
-I think hash tables are a better choice when searching for information quickly is the main goal. However, they are not always the best option. 
+I think an engineer might choose a hash table when they need to find information quickly without searching through every item.
+Hash tables are especially useful when fast searching is the main goal. However, they are not always the best option.
 For example, a list could be useful when we want to keep records in order, while a balanced tree could be better when we need sorted information. 
 I also learned that too many collisions can make searching slower.
